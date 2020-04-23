@@ -8,6 +8,10 @@
   .main h1 {
     font-size: 32px;
   }
+  
+  .main h3 {
+    width: 50%;
+  }
 
   .heading h1 {
     font-size: 20px;
