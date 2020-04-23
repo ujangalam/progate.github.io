@@ -38,11 +38,12 @@
   }
 
   .main h2 {
-    font-size: 18px;
+    width: 100%;
+    font-size: 20px;
     line-height: 34px;
   }
 
-  .main h2 {
+  .main h3 {
     font-size: 14px;
     line-height: 28px;
   }
