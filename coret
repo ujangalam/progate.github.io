@@ -1,0 +1,143 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  /* font-family: "Lucida Grande"; */
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  color: #5f5d60;
+}
+
+a {
+  text-decoration: none;
+}
+
+.clear {
+  clear: left;
+}
+
+.container {
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+
+
+.heading {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #5f5d60;
+  text-align: center;
+}
+
+.heading h1 {
+  font-weight: normal;
+}
+
+.teams-wrapper {
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  height: 600px;
+  text-align: center;
+}
+
+.teams {
+  float: left;
+  width: 20%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.teams-icon {
+  position: relative;
+}
+
+.teams-icon img{
+  height: 200px;
+  transition: .5s;
+}
+
+.teams-icon img:hover{
+  height: 220px;
+  transition: .5s;
+}
+
+.teams-name {
+  /* position: absolute; */
+  /* top: 44%; */
+  /* width: 100%; */
+  /* color: white; */
+  color: #3e3e3e;
+  margin : 10px 0;
+}
+.teams p{
+  color:#5f5d60;
+  margin: 0 auto;
+}
+
+
+
+
+
+.detail-wrapper{
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  /* height: 600px; */
+  /* padding: 50px 5px 50px 5px; */
+  /* background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%); */
+}
+.detail{
+  /* float: left; */
+  /* position: relative; */
+  width: 80%;
+}
+.detail-box{
+  position: relative;
+  background-image: linear-gradient(-125deg, #E3FDF5 0%, #FFE6FA 100%);
+  border-radius: 10px;
+  padding: 5px 20px;
+  margin:10px;
+  transition: .3s;
+  /* float: left; */
+}
+.detail-box:hover{
+  box-shadow: 1px 1px 10px #7e7e7e;
+  transition: .5s;
+}
+
+.detail-box h2{
+  border-bottom: 1px solid #858585;
+  padding-bottom: 10px;
+}
+.detail-box img{
+  /* height: 100px; */
+  float: left;
+  width:100px;
+  margin-top:75px;
+  position: relative;
+}
+
+.detail-left{ 
+  margin: 10px 5px 20px 110px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  border-left: 1.5px solid #858585;
+  position: relative;
+}
+.detail-right{
+  text-align: right;
+  margin: 10px 110px 20px 5px;
+  padding-right: 10px;
+  border-right: 1.5px solid #858585;
+}
+.detail-content{
+  margin-top: 10px;
+}
+.detail-content p, .detail-content h4{
+  margin:0;
+}
