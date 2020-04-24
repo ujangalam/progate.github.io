@@ -127,6 +127,8 @@ header h3 {
   float: left;
   width: 20%;
   font-family: 'Courier New', Courier, monospace;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .teams-icon {
