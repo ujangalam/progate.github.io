@@ -2,7 +2,9 @@
 @media all and (max-width: 1000px) {
   .teams {
     width: 50%;
-    margin-bottom: 50px;    
+    margin-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .main h1 {
