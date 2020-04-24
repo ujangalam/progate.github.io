@@ -8,10 +8,6 @@
   .main h1 {
     font-size: 32px;
   }
-  
-  .main h3 {
-    width: 50%;
-  }
 
   .heading h1 {
     font-size: 20px;
@@ -28,33 +24,16 @@
     text-align: center;
   }
 
-  .detail-box {
+  .btn {
     width: 100%;
   }
 
-  .main {
-    text-align: center;
+  .facebook {
+    margin-bottom: 10px;
   }
 
-  .main h1 {
-    font-size: 24px;
-    line-height: 36px;
-  }
-
-  .main h2 {
-    font-size: 20px;
-    line-height: 34px;
-  }
-
-  .main h3 {
-    width: 100%;
-    font-size: 14px;
-    line-height: 28px;
-  }
-  
-  .main p {
-    font-size: 14px;
-    line-height: 20px;
+  .top-wrapper {
+    text-align: left;
   }
 
   /* Tambahkan CSS untuk header-right */
@@ -65,5 +44,15 @@
   /* Tambahkan CSS untuk menu-icon */
   .menu-icon {
     display: block;
+  }
+
+  .main h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
   }
 }
