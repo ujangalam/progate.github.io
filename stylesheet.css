@@ -267,8 +267,8 @@ h2 i:hover{
 .contact-form h3{
   font-size: 28px;
   border-bottom: 2px solid #dee7ec;
-  padding-bottom:15px;
-  margin-bottom:50px;
+  padding-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 input, textarea{
@@ -285,7 +285,7 @@ input, textarea{
   margin-top: 20px;
   background-image: linear-gradient(-180deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
   color: #545454;
-  width: 25% !important;
+  width: 50% !important;
   border-radius: 5px;
 }
 
