@@ -271,7 +271,7 @@ h2 i:hover{
   margin-bottom:50px;
 }
 
-.input, textarea{
+input, textarea{
   border: 1px solid #dee7ec;
   width:50%;
   padding:10px;
