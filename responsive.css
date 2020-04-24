@@ -34,14 +34,7 @@
 
   .detail {
     width: 100%;
-  }
-
-  .detail-box {
-    width: 100%;
-  }
-
-  .detail-content {
-    width: 100%;
+    font-size: 12px;
   }
 
   .main {
