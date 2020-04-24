@@ -9,6 +9,10 @@
     font-size: 32px;
   }
 
+  .detail-box {
+    width: 50%;
+  }
+
   .heading h1 {
     font-size: 20px;
   }
@@ -28,12 +32,12 @@
     width: 100%;
   }
 
-  .facebook {
-    margin-bottom: 10px;
+  .detail-box {
+    width: 100%;
   }
 
-  .top-wrapper {
-    text-align: left;
+  .main {
+    text-align: center;
   }
 
   /* Tambahkan CSS untuk header-right */
