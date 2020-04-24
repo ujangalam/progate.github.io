@@ -1,10 +1,10 @@
 * {
   box-sizing: border-box;
+  cursor: url(http://www.rw-designer.com/cursor-extern.php?id=135913),default;
 }
 
 body {
   margin: 0;
-  /* font-family: "Lucida Grande"; */
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   color: #5f5d60;
 }
@@ -23,26 +23,99 @@ a {
   padding: 0 15px;
   margin: 0 auto;
 }
+span{
+  color: rgb(135, 88, 0);
+  font-size: 30pt;
+  font-weight: bold;
+}
+/* --------------------- */
+header{
+  font-family: Rajdhani,sans-serif;
+}
+header h1 {
+  opacity: 0.7;
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px black;
+}
 
+header h2 {
+  opacity: 0.7;
+  font-size: 30px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px black;
+}
+header h3 {
+  opacity: 0.9;
+  font-size: 20px;
+  letter-spacing: 5px;
+  margin-bottom: 45px;
+  text-shadow: 2px 2px black;
+}
+.main {
+  padding: 180px 0 100px 0;
+  background-image: url("https://scx2.b-cdn.net/gfx/news/hires/2018/darkenergy.jpg");
+  background-size: cover;
+  color: white;
+  text-align:center;
+  opacity: 0.85;
+}
 
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  /* Ubah nilai border-radius ke 4px */
+  border-radius:4px;
+}
+.btn:hover{
+  opacity:1;
+}
+.j13-a:hover {
+  color: rgb(0, 183, 255);
+}
+.j13-b:hover {
+  color: rgb(255, 123, 0);
+}
+.j13-c:hover {
+  color: rgb(102, 255, 0);
+}
+.j13-d:hover {
+  color: rgb(255, 0, 221);
+}
+.j13-e:hover {
+  color: rgb(255, 0, 55);
+}
 
+.go {
+  background-color: #0093FB;
+}
+
+/* --------------------- */
 .heading {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+  padding-bottom:30px;
+  color: #4a4a4a;
   text-align: center;
+  padding:10px 0 30px 0;
 }
 
 .heading h1 {
+  padding-bottom: 15px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.2);
   font-weight: normal;
+  border-bottom-right-radius: 100px;
+  border-bottom-left-radius: 100px;
 }
 
 .teams-wrapper {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
-  height: 600px;
+  background-image: linear-gradient(-60deg, #16a085 0%, #f4d03f 100%);
+  height: 500px;
   text-align: center;
 }
 
@@ -58,12 +131,14 @@ a {
 
 .teams-icon img{
   height: 200px;
-  transition: .5s;
+  transition: 1s;
 }
 
 .teams-icon img:hover{
   height: 220px;
-  transition: .5s;
+  transition: .2s;
+  border-radius: 110px;
+  box-shadow: 2px 2px 20px #5b5b5b;
 }
 
 .teams-name {
@@ -71,7 +146,8 @@ a {
   /* top: 44%; */
   /* width: 100%; */
   /* color: white; */
-  color: #3e3e3e;
+  /* color: antiquewhite; */
+  color: #2c2c2c;
   margin : 10px 0;
 }
 .teams p{
@@ -87,57 +163,106 @@ a {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
+  background-image: url("./img/contact-bg.jpg");
+  background-size: 100vw;
+  background-attachment: fixed;
   /* height: 600px; */
   /* padding: 50px 5px 50px 5px; */
   /* background-image: linear-gradient(-225deg, #7085B6 0%, #87A7D9 50%, #DEF3F8 100%); */
 }
 .detail{
-  /* float: left; */
-  /* position: relative; */
-  width: 80%;
+  width: 100%;
 }
 .detail-box{
-  position: relative;
-  background-image: linear-gradient(-125deg, #E3FDF5 0%, #FFE6FA 100%);
   border-radius: 10px;
   padding: 5px 20px;
-  margin:10px;
-  transition: .3s;
-  /* float: left; */
+  margin:20px;
+  transition: 1s;
 }
 .detail-box:hover{
-  box-shadow: 1px 1px 10px #7e7e7e;
-  transition: .5s;
+  box-shadow: 2px 2px 10px #7e7e7e;
+  transition: .3s;
+  background-color: rgba(255, 255, 255, 0.5);
 }
 
 .detail-box h2{
   border-bottom: 1px solid #858585;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
 }
 .detail-box img{
-  /* height: 100px; */
-  float: left;
   width:100px;
-  margin-top:75px;
+  margin-top:90px;
   position: relative;
 }
-
+.icon{
+  
+}
+.left{
+  float: left;
+  margin:20px;
+  
+}
 .detail-left{ 
-  margin: 10px 5px 20px 110px;
-  padding-left: 10px;
-  padding-bottom: 5px;
+  background-image: linear-gradient(-45deg, #93a5cf 0%, #e4efe9 100%);
+  margin: 10px 5px 10px 160px;
+  padding:5px 50px 20px 50px;
   border-left: 1.5px solid #858585;
-  position: relative;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.right{
+  float: right;
+  margin:20px;
 }
 .detail-right{
+  background-image: linear-gradient(45deg, #93a5cf 0%, #e4efe9 100%);
   text-align: right;
-  margin: 10px 110px 20px 5px;
-  padding-right: 10px;
+  margin: 10px 160px 10px 5px;
+  padding:5px 50px 20px 50px;
   border-right: 1.5px solid #858585;
+  border-bottom-left-radius: 10px;
+  border-top-left-radius: 10px;
 }
 .detail-content{
   margin-top: 10px;
 }
 .detail-content p, .detail-content h4{
   margin:0;
+}
+
+.contact-wrapper{
+  align-self: center;
+  padding-bottom: 80px;
+  padding-left: 5%;
+  padding-right: 5%;
+  background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
+  text-align: center;
+}
+.contact-form h3{
+  font-size: 28px;
+  border-bottom: 2px solid #dee7ec;
+  padding-bottom:15px;
+  margin-bottom:50px;
+
+}
+input, textarea{
+  border: 1px solid #dee7ec;
+  width:50%;
+  padding:10px;
+  margin:0px 0 25px 0;
+  border-radius: 10px;
+  font-size: 18px;
+  transition: .5s;
+}
+.btn-submit{
+  margin-top: 20px;
+  background-image: linear-gradient(-180deg, #77FFD2 0%, #6297DB 48%, #1EECFF 100%);
+  /* background-image: linear-gradient(to top, rgb(24, 174, 208) 0%, #7bf2ff 100%); */
+  color: #545454;
+  width: 25% !important;
+  border-radius: 5px;
+}
+input:hover, textarea:hover{
+  box-shadow: 1px 5px 5px #7e7e7e;
+  transition: .1s;
 }
