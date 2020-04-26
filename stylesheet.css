@@ -70,6 +70,15 @@ header {
   display : block;
   font-family: Rajdhani,sans-serif;
 }
+
+.menu-header {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  /* Gantikan property display ke none */
+  display: none;
+  
 /* ----------main----------- */
 .main{
   font-family: Rajdhani,sans-serif;
