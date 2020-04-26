@@ -70,6 +70,14 @@ header {
   display : block;
   font-family: Rajdhani,sans-serif;
 }
+
+.menu-icon {
+  color: white;
+  float: right;
+  font-size: 25px;
+  padding: 21px 0;
+  display: none;
+  
 /* ----------main----------- */
 .main{
   font-family: Rajdhani,sans-serif;
