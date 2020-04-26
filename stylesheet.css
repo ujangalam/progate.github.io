@@ -32,11 +32,49 @@ span{
   font-size: 30pt;
   font-weight: bold;
 }
-/* --------------------- */
-header{
+
+/* -----------header------------ */
+header {
+  height : 65px;
+  width : 100%;  
+  background-color : rgba(34, 49, 52, 0.9);  
+  position : fixed;
+  top : 0;
+  z-index : 10;  
+}
+.logo {
+  width : 200px;
+  margin-top : 10px;
+}
+
+.header-left {
+  float : left;
+  padding-left: 25px;
+}
+
+.header-right {
+  float : right;
+  background-color : rgba(34, 49, 52, 0.3); 
+  transition : all 0.5s;
+}
+
+.header-right:hover {
+  background-color : rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+  line-height : 65px;
+  padding-left : 25px;
+  padding-right : 25px;
+  color : white;
+  display : block;
   font-family: Rajdhani,sans-serif;
 }
-header h1 {
+/* ----------main----------- */
+.main{
+  font-family: Rajdhani,sans-serif;
+}
+.main h1 {
   opacity: 0.7;
   font-size: 45px;
   letter-spacing: 5px;
@@ -44,14 +82,14 @@ header h1 {
   text-shadow: 2px 2px black;
 }
 
-header h2 {
+.main h2 {
   opacity: 0.7;
   font-size: 30px;
   letter-spacing: 5px;
   margin-bottom: 10px;
   text-shadow: 2px 2px black;
 }
-header h3 {
+.main h3 {
   opacity: 0.9;
   font-size: 20px;
   letter-spacing: 5px;
@@ -98,7 +136,7 @@ header h3 {
   background-color: #0093FB;
 }
 
-/* --------------------- */
+/* ----------extra----------- */
 .heading {
   padding-bottom:30px;
   color: #4a4a4a;
@@ -280,4 +318,20 @@ input, textarea{
 input:hover, textarea:hover{
   box-shadow: 1px 5px 5px #7e7e7e;
   transition: .1s;
+}
+
+/* --------footer--------- */
+footer img {
+  width: 150px;
+  align: center;
+}
+
+footer p {
+  color: #b3aeb5;
+  font-size: 12px;
+}
+
+footer {
+  padding-top: 30px;
+  padding-bottom: 20px;
 }

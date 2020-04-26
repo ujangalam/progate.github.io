@@ -28,12 +28,8 @@
     width: 100%;
   }
 
-  .btn-submit {
-    width: 100%;
-  }
-
-  input, textarea {
-    width:100%;
+  .facebook {
+    margin-bottom: 10px;
   }
 
   .top-wrapper {
