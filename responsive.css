@@ -38,7 +38,7 @@
 
   /* Tambahkan CSS untuk header-right */
   .header-right {
-    display: block;
+    display: none;
   }
 
   /* Tambahkan CSS untuk menu-icon */
