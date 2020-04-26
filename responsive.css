@@ -7,10 +7,14 @@
   
   .main h1 {
     font-size: 32px;
-  }  
- 
+  }
+  
   .heading h1 {
     font-size: 20px;
+  }
+
+  .teams-wrapper {
+    height: auto;
   }
 }
 
@@ -31,6 +35,10 @@
   .top-wrapper {
     text-align: left;
   }
+
+  .teams-wrapper {
+    height: auto;
+  }
   
   .header-right {
     display: none;
@@ -40,6 +48,11 @@
     display: block;
   }
   
+  .main {
+    text-align: center;
+    color: #21fb00;
+  }
+
   .main h1 {
     font-size: 24px;
     line-height: 36px;
@@ -49,10 +62,23 @@
     font-size: 20px;
   }
   
-  .main h3 {
+  .main h3 a {
     font-size: 18px;
+    color: #21fb00;
   }
-  
+
+  .detail {
+    width: 100%;
+  }
+
+  .detail-left {
+    font-size: 12px;
+  }
+
+  .detail-right {
+    font-size: 12px;
+  }
+
   .btn-submit {
     width: 100%;
   }
