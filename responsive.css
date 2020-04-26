@@ -24,6 +24,10 @@
   .teams-wrapper {
     height: auto;
   }
+
+  footer img {
+    width: 100px; 
+  }
 }
 
 /* Untuk Smartphone */
@@ -35,6 +39,10 @@
   footer {
     text-align: center;
   }
+
+  footer img {
+  width: 75px; 
+}
   
   .btn {
     width: 100%;
