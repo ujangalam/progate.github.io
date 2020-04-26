@@ -50,13 +50,7 @@
     line-height: 20px;
   }
   
-  .detail-left{
-    width: 100%;
-    float: top;
-  }
-  
-  .detail-right{
-    width: 100%;
+  .detail-img{
     float: top;
   }
 }
