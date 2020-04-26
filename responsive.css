@@ -72,12 +72,17 @@
   }
 
   .detail-left {
-    font-size: 12px;
+     font-size: 12px;
   }
 
   .detail-right {
     font-size: 12px;
   }
+
+  .detail-img img{
+  margin:15px;
+  height: 50px;
+}
 
   .btn-submit {
     width: 100%;
