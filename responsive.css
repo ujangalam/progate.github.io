@@ -107,4 +107,12 @@
   input, textarea {
     width: 100%;
   }
+  
+  footer {
+    text-align: center;
+  }
+
+  footer img {
+  width: 75px; 
+  }
 }
