@@ -76,7 +76,7 @@ header {
 
 .menu-header {
   color: white;
-  float: right;
+  float: none;
   font-size: 25px;
   padding: 21px 0;
   /* Gantikan property display ke none */
