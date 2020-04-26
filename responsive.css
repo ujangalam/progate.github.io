@@ -1,6 +1,6 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
-  .main {
+  .teams {
     width: 50%;
     margin-bottom: 50px;
   }
@@ -16,7 +16,7 @@
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
-  .main {
+  .teams {
     width: 100%;
   }
   
